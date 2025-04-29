@@ -1,28 +1,20 @@
-# Todo List Application
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
-  
-This project is connected to the Convex deployment named [`enduring-parrot-698`](https://dashboard.convex.dev/d/enduring-parrot-698).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# ✅ To-Do List Application
 
-## App authentication
+This is a simple and powerful To-Do List app built using **Chef** for the frontend and **Convex** as the backend. It helps users manage daily tasks efficiently with a clean interface and real-time updates.
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+---
 
-## Developing and deploying your app
+## 🔧 Tech Stack  
+- **Frontend:** Built using [Vite](https://vitejs.dev/) inside the `app` folder  
+- **Backend:** Powered by [Convex](https://convex.dev/), code is inside the `convex` folder  
+- **Authentication:** Uses [Convex Auth](https://auth.convex.dev/) with **Anonymous login** by default  
+- **Deployment:** Linked to the Convex project: [`enduring-parrot-698`](https://dashboard.convex.dev/d/enduring-parrot-698)
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
+---
 
-## HTTP API
+## 🚀 Getting Started
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+To run the project locally:
+
+```bash
+npm run dev
